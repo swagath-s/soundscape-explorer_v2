@@ -10,27 +10,29 @@ int buttonState = 0;
 
 public class Cell{
   public int x = -1;
-  public int y = -1 ;
+  public int y = -1 ; 
   public Cell(int X, int Y){
     x = X;
     y = Y;
   }
+  public void doNothing(){};
   public int val = x+y;
 }
 
 
 Cell[][] grid = new Cell[5][5];
 
+//Cell potato  = new Cell;
+
 
 void cellAssign(Cell[][] grid){
-  print(grid[1][1].x);
-                /*for (int i = 0; i <5; i++){
-                  for (int k = 0; k<5; k++){
-                    grid[i][k].x = i;
-                    grid[i][k].y = k;
-                  }
-                }*/
-  
+for (int i = 0; i <5; i++){
+  for (int k = 0; k<5; k++){
+    Cell temp = new Cell(i, k);
+    grid[i][k] = temp;
+  }
+}
+
 }
 
 {  
@@ -51,20 +53,24 @@ void move(String where){
    else {
     switch (where){
       case "front":
-        now = grid[now.x][now.y++];
-        print("y++ "+ now.y);
+        now = grid[now.x][now.y+1];
+        //println("y++ "+ now.y);
+        println(now.x, now.y);
         break;
       case "right":
-        now = grid[now.x++][now.y];
-        print("x++ ", now.x);
+        now = grid[now.x+1][now.y];
+        //println("x++ ", now.x);
+        println(now.x, now.y);
         break;
       case "back":
-        now = grid[now.x][now.y--];
-        print("y-- ", now.y);
+        now = grid[now.x][now.y-1];
+        //println("y-- ", now.y);
+        println(now.x, now.y);
         break;
       case "left":
-        now = grid[now.x--][now.y];
-        print("x-- ", now.x);
+        now = grid[now.x-1][now.y];
+        //println("x-- ", now.x);
+        println(now.x, now.y);
         break;
     }
    }
