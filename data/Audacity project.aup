@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Audacity project_data" version="1.3.0" audacityversion="2.1.1" sel0="1.9156462585" sel1="2.4380952381" vpos="0" h="0.0000000000" zoom="86.1328125000" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="Audio Track" channel="2" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="-0.13000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="118885">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000fb7.au" len="118885" min="-0.168976" max="0.127899" rms="0.016016"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="14">
+				<controlpoint t="0.257709750567" val="1.000000000000"/>
+				<controlpoint t="0.350589569161" val="0.666666686535"/>
+				<controlpoint t="0.780153730159" val="0.527777791023"/>
+				<controlpoint t="0.780158730159" val="1.000000000000"/>
+				<controlpoint t="0.907868480726" val="0.972222208977"/>
+				<controlpoint t="1.070408163265" val="0.625000000000"/>
+				<controlpoint t="1.349042619048" val="0.625000000000"/>
+				<controlpoint t="1.349047619048" val="1.013888835907"/>
+				<controlpoint t="1.441927437642" val="1.013888835907"/>
+				<controlpoint t="1.627687074830" val="0.625000000000"/>
+				<controlpoint t="1.975981394558" val="0.069444417953"/>
+				<controlpoint t="2.010816326531" val="1.013888835907"/>
+				<controlpoint t="2.266235827664" val="1.013888835907"/>
+				<controlpoint t="2.405555555556" val="0.541666686535"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Audio Track" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="1.23065760">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="21504">
+				<waveblock start="0">
+					<simpleblockfile filename="e00007bd.au" len="21504" min="-0.140137" max="0.108063" rms="0.010707"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="3">
+				<controlpoint t="0.000000000000" val="0.920458438978"/>
+				<controlpoint t="0.148639455782" val="0.625000000000"/>
+				<controlpoint t="0.487596371882" val="0.073647406303"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Audio Track" channel="0" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="20480">
+				<waveblock start="0">
+					<simpleblockfile filename="e000041a.au" len="20480" min="-0.168976" max="0.115723" rms="0.012894"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="4">
+				<controlpoint t="0.000000000000" val="0.990051773990"/>
+				<controlpoint t="0.090589569161" val="0.666666686535"/>
+				<controlpoint t="0.464376417234" val="0.544025997519"/>
+				<controlpoint t="0.464399092971" val="0.976721126974"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Audio Track" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.53405896">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="91749">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000282.au" len="17408" min="-0.162506" max="0.086639" rms="0.010329"/>
+				</waveblock>
+				<waveblock start="17408">
+					<simpleblockfile filename="e0000464.au" len="74341" min="-0.119202" max="0.127899" rms="0.007761"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="9">
+				<controlpoint t="0.009319727891" val="0.972222208977"/>
+				<controlpoint t="0.171859410431" val="0.625000000000"/>
+				<controlpoint t="0.394716553288" val="0.625000000000"/>
+				<controlpoint t="0.394739229025" val="1.000000000000"/>
+				<controlpoint t="1.369977324263" val="1.000000000000"/>
+				<controlpoint t="1.369982324263" val="0.142336125560"/>
+				<controlpoint t="1.395487528345" val="1.013888835907"/>
+				<controlpoint t="1.650907029478" val="1.013888835907"/>
+				<controlpoint t="1.790226757370" val="0.541666686535"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+</project>

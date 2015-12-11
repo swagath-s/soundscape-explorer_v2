@@ -1,0 +1,1 @@
+//make an array of all the strings of all the locations here
